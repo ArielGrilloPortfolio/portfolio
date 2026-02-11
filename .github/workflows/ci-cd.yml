@@ -1,0 +1,25 @@
+name: Deployment-Portfolio
+on:
+  push:
+    branches: 
+      - main    
+jobs:
+  Deploy-Frontend-ssh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: publish frontend app
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          command_timeout: 30m
+          script: | 
+            cd /var/www/portfolio
+            git pull
+
+            sudo cp /var/www/portfolio/frontend/Deploy/portfolio_fe.config /etc/nginx/sites-available/arielgrillo.es
+                        
+            sudo nginx -t
+            sudo systemctl reload nginx
