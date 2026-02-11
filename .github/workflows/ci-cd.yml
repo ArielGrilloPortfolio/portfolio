@@ -19,7 +19,14 @@ jobs:
             cd /var/www/portfolio
             git pull
 
-            sudo cp /var/www/portfolio/frontend/Deploy/portfolio_fe.config /etc/nginx/sites-available/arielgrillo.es
+            #Elimino la versión anterior
+            sudo rm -f /etc/nginx/sites-enabled/arielgrillo.es /etc/nginx/sites-available/arielgrillo.es
+            
+            #Sobreescribo el existente
+            sudo cp -f /var/www/portfolio/frontend/Deploy/portfolio_fe.config /etc/nginx/sites-available/portfolio_fe.config
+            
+            #Crear el symlink
+            sudo ln -s /etc/nginx/sites-available/portfolio_fe.config /etc/nginx/sites-enabled/
                         
             sudo nginx -t
             sudo systemctl reload nginx
