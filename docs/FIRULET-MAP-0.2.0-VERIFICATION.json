@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-19",
+  "version": "0.2.0",
+  "status": "published-and-verified",
+  "source": "User screenshot confirms manual VPS script success; independently verified full HTTPS downloads, sidecars and byte ranges.",
+  "downloads": [
+    {
+      "file": "FiruletMap-0.2.0-win-x64.zip",
+      "bytes": 189675854,
+      "sha256": "0b499e07650222afa35955043fd1a1c1b07cb544a157c8c7ec2c3468c9ffe330",
+      "matchesApproved": true,
+      "sidecarMatches": true,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-3/189675854",
+      "contentType": "application/zip",
+      "contentDisposition": "attachment",
+      "url": "https://www.arielgrillo.es/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64.zip"
+    },
+    {
+      "file": "FiruletMap-0.2.0-win-x64-installer.zip",
+      "bytes": 177589794,
+      "sha256": "05d61f23ba7678a0d72dda7618fa76a82a1c415aa57a80b6620010dd5886870c",
+      "matchesApproved": true,
+      "sidecarMatches": true,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-3/177589794",
+      "contentType": "application/zip",
+      "contentDisposition": "attachment",
+      "url": "https://www.arielgrillo.es/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64-installer.zip"
+    }
+  ],
+  "productUrl": "https://www.arielgrillo.es/firulet-map/",
+  "vps": {
+    "host": "217.160.228.106",
+    "directory": "/srv/firulet-map/releases/v0.2.0/"
+  },
+  "websiteDeployment": {
+    "commit": "be859d5b473873f6e4539e669a96a91a52e7baff",
+    "actionUrl": "https://github.com/ArielGrilloPortfolio/portfolio/actions/runs/39315213832",
+    "conclusion": "success"
+  },
+  "guides": [
+    {
+      "file": "FIRULET-MAP-0.2.0-guide-ES.pdf",
+      "url": "https://www.arielgrillo.es/firulet-map/guides/FIRULET-MAP-0.2.0-guide-ES.pdf",
+      "sha256": "5318b8b6fc90703255ca05fe9a62438c9a9a3d9507fda6f60011b20b2fd5bba9",
+      "matchesApproved": true
+    },
+    {
+      "file": "FIRULET-MAP-0.2.0-guide-EN.pdf",
+      "url": "https://www.arielgrillo.es/firulet-map/guides/FIRULET-MAP-0.2.0-guide-EN.pdf",
+      "sha256": "063300238e3d09d93d6bb5ffcc41eab65a31b057cde147bd3b6067c423b0c10e",
+      "matchesApproved": true
+    }
+  ],
+  "method": "Full HTTPS downloads streamed into SHA256 without retaining additional ZIP copies; sidecars and Range bytes=0-3 checked independently.",
+  "limitations": "Transport/package identity verification, not additional installation, musical accuracy or clean-machine acceptance. FM-021 beta follow-up unchanged."
+}

@@ -76,6 +76,6 @@ Exclude it from all real feedback counts and metrics; it remains for traceabilit
 
 ## Next version preparation
 
-[0.2.0 preparation](FIRULET-MAP-0.2.0-PREPARATION.md): two downloads, updated
-guides/history and local staging prepared; not deployed. This0.1.0 publication
+[0.2.0 publication](FIRULET-MAP-0.2.0-PREPARATION.md): two downloads and updated
+guides/history published and verified on2026-10-19. This0.1.0 publication
 evidence remains historical and unchanged in meaning.

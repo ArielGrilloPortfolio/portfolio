@@ -1,10 +1,16 @@
-# FIRULET MAP 0.2.0 — prepared, not deployed
+# FIRULET MAP 0.2.0 — published and verified
 
-User approved the page and both guides on 2026-10-19 and explicitly authorized
-commit/push in both repositories. The existing main-push Action deploys the site.
-Binary transfer to VPS remains pending and is performed by the user using the
-commands below. No claim of complete download publication before that step.
-No workflow or Nginx configuration change is needed.
+Published on2026-10-19. User approved the page/guides and both repository pushes.
+Portfolio commit be859d5 deployed successfully (Action39315213832). User uploaded
+both ZIPs to Ubuntu VPS217.160.228.106 and ran the pinned helper. Full public HTTPS
+downloads, byte counts, SHA256 sidecars and HTTP206 ranges match approved files.
+Both public PDF hashes and the product page were also verified. Evidence:
+[FIRULET-MAP-0.2.0-VERIFICATION.json](FIRULET-MAP-0.2.0-VERIFICATION.json).
+
+Public page: https://www.arielgrillo.es/firulet-map/ . Server directory:
+`/srv/firulet-map/releases/v0.2.0/`. Historical0.1.0 files remain unchanged.
+This is distribution verification; clean-machine/exceptional prerequisites and
+future distinct-version updates remain beta follow-up FM-021.
 
 ## Assets
 
@@ -44,7 +50,7 @@ reviewed and feedback URI annotations checked. Exact verification in firulet-map
 Google Form remains unchanged. Ask testers for0.2.0 (Other if absent) and portable
 or installer in comments. Do not include test response FM-TEST-20261019-01 in metrics.
 
-## Publication follow-up
+## Manual publication procedure — completed, retained for maintenance
 
 1. Transfer the staging directory's two ZIPs and helper
    `install-firulet-release-0.2.0.sh` to a VPS folder such as
@@ -66,11 +72,10 @@ The helper pins both hashes, verifies both inputs before writes, refuses differe
 existing versioned archives, copies atomically per file and writes checksum
 sidecars. It does not deploy the site or reload Nginx.
 
-4. Portfolio main push is now explicitly authorized by user and will trigger the
-   existing Action. Until the user uploads the two ZIPs, new download links may
-   return404; complete the transfer promptly. Site deploy and ZIP upload are
-   separate operations.
-5. Verify both public ZIP downloads/hashes/content type/attachment/byte ranges,
+4. Completed: approved portfolio main push be859d5 triggered Action39315213832
+   successfully; the user subsequently transferred and published both ZIPs.
+   Site deployment and binary upload are separate operations.
+5. Completed: verify both public ZIP downloads/hashes/content type/attachment/byte ranges,
    PDF links, notes, card navigation and feedback link. Record actual outcomes
    and publication status; do not reuse local results as production evidence.
 
