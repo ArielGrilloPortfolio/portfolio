@@ -73,3 +73,9 @@ server script passed `bash -n`; production delivery was checked separately above
 
 Feedback test `FM-TEST-20261019-01` reached row 2 in the private linked spreadsheet.
 Exclude it from all real feedback counts and metrics; it remains for traceability.
+
+## Next version preparation
+
+[0.2.0 preparation](FIRULET-MAP-0.2.0-PREPARATION.md): two downloads, updated
+guides/history and local staging prepared; not deployed. This0.1.0 publication
+evidence remains historical and unchanged in meaning.

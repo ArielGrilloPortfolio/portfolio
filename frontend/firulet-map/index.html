@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="FIRULET MAP: una app Windows para explorar notas, tiempos y bends de guitarra. Descargá la versión portable 0.1.0 y compartí tu experiencia.">
+  <meta name="description" content="FIRULET MAP: una app Windows para explorar notas, tiempos y bends de guitarra. Descargá la versión 0.2.0 portable o instalable y compartí tu experiencia.">
   <title>FIRULET MAP | Ariel Grillo</title>
   <link rel="icon" href="assets/icon.png" type="image/png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=0.2.0">
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -14,13 +14,13 @@
   <main id="contenido">
     <section class="hero" aria-labelledby="titulo">
       <div>
-        <p class="eyebrow"><span class="dot"></span> MÚSICA + SOFTWARE · PRIMERA VERSIÓN</p>
+        <p class="eyebrow"><span class="dot"></span> MÚSICA + SOFTWARE · VERSIÓN 0.2.0</p>
         <div class="brand"><img src="assets/icon.png" alt="" width="64" height="64"><span>FIRULET MAP</span></div>
         <h1 id="titulo">De tu guitarra<br>a un mapa de notas.</h1>
         <p class="intro">Una ayuda para sacar melodías de oído. Cargá una grabación de guitarra, explorá las notas y los bends probables, y contrastá el resultado con el audio original.</p>
-        <div class="actions"><a class="button primary" href="/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip" download>Descargar para Windows <span aria-hidden="true">↓</span></a><a class="button secondary" href="#guias">Leer la guía</a></div>
-        <p class="meta">v0.1.0 · Windows x64 · ZIP portable · 190 MB</p>
-        <p class="aside">La app está en inglés. No necesitás instalar .NET ni Python.</p>
+        <div class="actions"><a class="button primary" href="/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64.zip" download>Descargar portable ↓</a><a class="button secondary" href="/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64-installer.zip" download>Descargar instalable ↓</a></div>
+        <p class="meta">v0.2.0 · Windows x64 · Portable: 190 MB · Instalable: 178 MB</p>
+        <p class="aside">La app está en inglés. <a href="#descargas">Comparar las dos opciones</a> · <a href="#guias">Leer las guías</a></p>
       </div>
       <figure class="map-card">
         <div class="map-header"><span>ESCUCHÁ. MIRÁ. COMPARÁ.</span><span class="live-dot">LOCAL</span></div>
@@ -37,6 +37,13 @@
         <figcaption>Ilustración del mapa. El resultado real depende de tu grabación.</figcaption>
       </figure>
     </section>
+    <section id="descargas" class="download-section" aria-labelledby="download-title">
+      <p class="eyebrow">DOS FORMAS DE EMPEZAR</p><h2 id="download-title">Elegí cómo querés usarla.</h2>
+      <div class="download-grid">
+        <article class="panel download-card"><span class="format-badge">PORTABLE</span><h3>Extraé y abrí.</h3><p>Sin instalación ni permisos de administrador. Incluye .NET y Python privados dentro de la carpeta.</p><ol><li>Descargá y extraé <strong>todo</strong> el ZIP a una carpeta con permiso de escritura.</li><li>Abrí <code>FiruletMap.App.exe</code> y conservá las DLL y subcarpetas.</li></ol><p class="download-meta">ZIP · 190 MB · Windows x64</p><a class="button primary" href="/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64.zip" download>Descargar portable ↓</a><a class="checksum" href="/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64.zip.sha256" download>Verificación SHA256</a></article>
+        <article class="panel download-card"><span class="format-badge">INSTALABLE</span><h3>Instalá y abrí desde Inicio.</h3><p>Para todos los usuarios; requiere administrador. Reutiliza .NET 10 Desktop Runtime x64 compatible o instala el paquete incluido si falta. Python queda privado.</p><ol><li>Descargá y extraé el ZIP.</li><li>Ejecutá <code>FiruletMap-0.2.0-win-x64-setup.exe</code>. El acceso al escritorio es opcional.</li></ol><p class="download-meta">ZIP con instalador · 178 MB · Windows x64</p><a class="button primary" href="/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64-installer.zip" download>Descargar instalable ↓</a><a class="checksum" href="/downloads/firulet-map/v0.2.0/FiruletMap-0.2.0-win-x64-installer.zip.sha256" download>Verificación SHA256</a></article>
+      </div><p class="aside">Ambas opciones instalan o analizan sin conexión. Windows 11 es el sistema probado. No se incluye audio de ejemplo.</p>
+    </section>
     <section class="steps" aria-label="Cómo funciona">
       <article><span class="number">01</span><h2>Cargá tu grabación</h2><p>Guitarra aislada, una nota a la vez, con distorsión y sin otros efectos.</p></article>
       <article><span class="number">02</span><h2>Explorá el mapa</h2><p>Revisá alturas, inicios, finales, curva de afinación y zonas inciertas.</p></article>
@@ -44,12 +51,12 @@
     </section>
     <section class="details" aria-label="Antes de empezar">
       <article class="panel"><p class="eyebrow">ENTRADA COMPATIBLE</p><h2>Un WAV, una guitarra.</h2><ul><li>WAV mono PCM de 16 bits.</li><li>44,1 o 48 kHz; hasta 40 segundos.</li><li>Una línea melódica, con distorsión; sin reverb, delay ni otros efectos.</li><li>No necesitás BPM, compás, MIDI ni señal DI.</li></ul><p>El análisis se ejecuta en tu equipo y no sube automáticamente el audio.</p></article>
-      <article class="panel"><p class="eyebrow">QUÉ ESPERAR DE LA 0.1.0</p><h2>Una propuesta para revisar.</h2><p>La detección es imperfecta: algunas notas débiles, repeticiones, finales o bends pueden necesitar revisión. Usá el oído como referencia.</p><p>No incluye acordes, separación de instrumentos, edición de notas, exportación MIDI ni guardado de análisis. El primer análisis puede tardar más.</p><p>La app aún no tiene firma digital. Si Windows impide abrirla, anotá el mensaje y contalo en el feedback.</p></article>
+      <article class="panel"><p class="eyebrow">QUÉ ESPERAR DE LA 0.2.0</p><h2>Una propuesta para revisar.</h2><p>La detección es imperfecta: algunas notas débiles, repeticiones, finales o bends pueden necesitar revisión. Usá el oído como referencia.</p><p>No incluye acordes, separación de instrumentos, edición de notas, exportación MIDI ni guardado de análisis. El primer análisis puede tardar más. La versión 0.2.0 muestra cinco etapas reales, actividad y tiempo transcurrido; las etapas no son porcentajes.</p><p>La app y su instalador aún no tienen firma digital propia. Si Windows impide abrirla, anotá el mensaje y contalo en el feedback.</p></article>
     </section>
-    <section id="guias" class="resources" aria-labelledby="guias-title"><div><p class="eyebrow">PRIMEROS PASOS</p><h2 id="guias-title">Tu guía de bolsillo.</h2><p>Preparación, análisis, lectura del mapa y reproducción. Cinco páginas para empezar.</p></div><div class="guide-links"><a class="resource" href="guides/FIRULET-MAP-0.1.0-guide-ES.pdf">Guía en español <span>PDF · ES ↗</span></a><a class="resource" href="guides/FIRULET-MAP-0.1.0-guide-EN.pdf" lang="en">English guide <span>PDF · EN ↗</span></a></div></section>
-    <section id="feedback" class="feedback" aria-labelledby="feedback-title"><div><p class="eyebrow">AYUDAME A MEJORARLA</p><h2 id="feedback-title">¿Te sirvió para sacar esa melodía?</h2><p>Contame qué funcionó, dónde te trabaste y qué cambiarías. El formulario está en español, lleva unos 3-5 minutos y no requiere subir audio. El contacto es opcional.</p></div><a class="button primary" href="https://docs.google.com/forms/d/e/1FAIpQLSff61AyI7QJ6uKt__DELQNoMDd3qc9uB71tVndK2lcOV4g_0w/viewform?usp=header" target="_blank" rel="noopener noreferrer">Dar feedback ↗</a></section>
-    <section class="install" aria-label="Cómo abrir el portable"><h2>Para abrir el portable</h2><p>Descargá el ZIP, extraé <strong>todo su contenido</strong> en una carpeta y ejecutá <code>FiruletMap.App.exe</code>. Conservá las DLL y subcarpetas. No ejecutes la app desde dentro del ZIP.</p><a href="/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip.sha256" download>Descargar verificación SHA256</a></section>
+    <section id="guias" class="resources" aria-labelledby="guias-title"><div><p class="eyebrow">PRIMEROS PASOS</p><h2 id="guias-title">Tu guía de bolsillo.</h2><p>Portable e instalable, actualización manual, las cinco etapas del análisis y reproducción. Seis páginas para empezar.</p></div><div class="guide-links"><a class="resource" href="guides/FIRULET-MAP-0.2.0-guide-ES.pdf">Guía en español <span>PDF · ES ↗</span></a><a class="resource" href="guides/FIRULET-MAP-0.2.0-guide-EN.pdf" lang="en">English guide <span>PDF · EN ↗</span></a></div></section>
+    <section id="feedback" class="feedback" aria-labelledby="feedback-title"><div><p class="eyebrow">AYUDAME A MEJORARLA</p><h2 id="feedback-title">¿Te sirvió para sacar esa melodía?</h2><p>Contame qué funcionó, dónde te trabaste y qué cambiarías. Indicá versión 0.2.0 (Otra si no aparece) y portable o instalador en los comentarios. El formulario está en español, lleva unos 3-5 minutos y no requiere subir audio. El contacto es opcional.</p></div><a class="button primary" href="https://docs.google.com/forms/d/e/1FAIpQLSff61AyI7QJ6uKt__DELQNoMDd3qc9uB71tVndK2lcOV4g_0w/viewform?usp=header" target="_blank" rel="noopener noreferrer">Dar feedback ↗</a></section>
+    <section id="novedades" class="install" aria-labelledby="news-title"><p class="eyebrow">NOVEDADES / 0.2.0</p><h2 id="news-title">Más claro al instalar y al esperar.</h2><ul><li>Nuevo instalador offline con accesos directos y desinstalación.</li><li>Stage X of 5, nombre de etapa, animación y tiempo transcurrido.</li><li>Cancelación y reproducción disponibles durante el análisis.</li></ul><p>El detector musical se mantiene: no se promete más precisión ni velocidad. Las últimas etapas pueden pasar muy rápido.</p><p><a href="changelog.html">Historial de versiones</a> · <a href="releases/v0.2.0/RELEASE-NOTES-ES.md" download>Notas de versión (ES)</a> · <a href="releases/v0.2.0/RELEASE-NOTES-EN.md" download lang="en">Release notes (EN)</a></p><h2>¿Ya tenés una versión anterior?</h2><p>Cerrá la app y ejecutá el instalador nuevo para actualizar manualmente. No hay actualizador automático. La desinstalación se hace desde Aplicaciones instaladas de Windows y conserva archivos personales y .NET compartido. Si usabas el portable 0.1.0, esa carpeta queda separada; no se elimina al instalar.</p><p class="aside">El seguimiento con beta testers cubrirá equipos sin .NET, permisos rechazados, reinicios y actualizaciones entre distintas versiones publicadas.</p></section>
   </main>
-  <footer><span>FIRULET MAP · v0.1.0</span><a href="../index.html#contacto">Un proyecto de Ariel Grillo</a></footer>
+  <footer><span>FIRULET MAP · v0.2.0</span><a href="../index.html#contacto">Un proyecto de Ariel Grillo</a></footer>
 </body>
 </html>
