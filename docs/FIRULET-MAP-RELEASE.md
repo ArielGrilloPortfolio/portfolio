@@ -1,89 +1,75 @@
-# FIRULET MAP 0.1.0 - prepared website release
+# FIRULET MAP 0.1.0 - published and verified
 
-Status: local preparation only. Do not push to main until publication is
-authorized: `.github/workflows/ci-cd.yml` deploys automatically on a main push.
-No workflow run, SSH connection or server changes performed for this preparation.
+Status: published with explicit user approval on 2026-10-19. Portfolio page,
+guides, feedback form and original portable archive are publicly available.
 
-## Included
+## Public links
 
-- Portfolio personal-project card links to `/firulet-map/`.
-- Static product page, local icon and both PDF guides (already contain feedback
-  links). Explanatory map graphic is explicitly an illustration, not a screenshot.
-- Public Google Forms respondent URL, not the editor or private response sheet.
-- Download URL:
-  `/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip`.
-- Local ZIP and checksum staging:
-  `.local/release-assets/firulet-map/v0.1.0/` (ignored by Git).
-- Archive SHA256:
-  `46bc1890aa8e590362952a9a67aeacb76cb66fe5e1cda29d24fcadd89f77ced5`.
-- Nginx route `/downloads/firulet-map/` maps to `/srv/firulet-map/releases/`,
-  outside the Git checkout. Missing binaries return 404, never the SPA HTML.
-  Listing disabled; files delivered as attachments. HTTPS remains unchanged.
+- [Product page](https://www.arielgrillo.es/firulet-map/).
+- [Portable ZIP](https://www.arielgrillo.es/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip).
+- [SHA256 sidecar](https://www.arielgrillo.es/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip.sha256).
+- [Spanish guide](https://www.arielgrillo.es/firulet-map/guides/FIRULET-MAP-0.1.0-guide-ES.pdf).
+- [English guide](https://www.arielgrillo.es/firulet-map/guides/FIRULET-MAP-0.1.0-guide-EN.pdf).
+- [Feedback form](https://docs.google.com/forms/d/e/1FAIpQLSff61AyI7QJ6uKt__DELQNoMDd3qc9uB71tVndK2lcOV4g_0w/viewform?usp=header).
 
-The ZIP is 190005419 bytes. Do not commit it to Git or upload any corpus WAV.
-The existing portable remains unchanged; no sample recording is distributed.
+The page links to the respondent form, never the editor or private response sheet.
+No corpus WAV is distributed. The diagram is explicitly an illustration.
 
-## Future publication order - not executed
+## Published artifact and verification
 
-1. Obtain explicit deployment approval. Confirm SSH access with the server
-   administrator. Workflow currently uses HOST/USERNAME/PASSWORD/PORT secrets;
-   no expired token has been demonstrated.
-2. Transfer the approved ZIP to a temporary location on the web server using
-   the established secure channel. Do not place credentials in source/docs.
-3. Run on the server:
+ZIP: 190005419 bytes; SHA256:
+`46bc1890aa8e590362952a9a67aeacb76cb66fe5e1cda29d24fcadd89f77ced5`.
 
-   ```sh
-   sudo bash /path/to/install-firulet-download.sh /path/to/FiruletMap-0.1.0-win-x64.zip
-   ```
+The user transferred the approved ZIP to their Ubuntu VPS and ran
+`tooling/scripts/install-firulet-download.sh`. Nginx serves it from
+`/srv/firulet-map/releases/v0.1.0/`, outside the Git checkout. Local staging:
+`.local/release-assets/firulet-map/v0.1.0/` (ignored). Do not commit the ZIP.
 
-   Use `tooling/scripts/install-firulet-download.sh` from this checkout. It checks
-   the pinned archive hash before installing into `/srv/firulet-map/releases/v0.1.0`,
-   refuses a differing existing archive and stages the copy before renaming.
-   It creates the checksum sidecar; it does not reload Nginx or deploy the site.
-   The web server needs traversal/read access to that directory. No Python/.NET
-   install is needed on the web server; it only serves a file.
-4. Once assets are ready, review and authorize publishing the portfolio changes.
-   A push to main triggers the existing action: git pull, Nginx config copy,
-   `nginx -t` and reload. No workflow modifications are part of this change.
-5. Verify HTTPS homepage/card, `/firulet-map/`, both guides, Forms link, ZIP and
-   checksum. ZIP Content-Type must be application/zip; downloaded hash must match.
-   Check missing binary URL returns 404 and a byte-range request returns 206.
-   Missing downloads must never produce the homepage or a 200 HTML response.
+Verified over public HTTPS on 2026-10-19:
 
-## Local preview
+- Full archive downloaded into a streaming SHA256 calculation: exact byte count
+  and original hash match. No engine/package changes.
+- Content-Type application/zip; Content-Disposition attachment.
+- Public checksum sidecar matches.
+- Range bytes=0-3 returns 206, Content-Range bytes 0-3/190005419 and ZIP magic PK.
+- Product page serves the correct title and published feedback link. Both guides
+  return 200 and actual PDF bytes; homepage card navigation visually reviewed.
 
-From `frontend`: `python -m http.server 4337 --bind 127.0.0.1`.
-Open `http://127.0.0.1:4337/firulet-map/` and the homepage personal-project section.
-Use a narrow window to review mobile layout. This plain static preview does not
-implement the server download alias: its download URL returns 404 until a real
-Nginx deployment and separate asset transfer are approved. This is intentional;
-do not claim a local static-server preview verifies production delivery.
+This is transport/identity verification, not new application acceptance on a clean
+machine. Mobile CSS exists; narrow-viewport rendering has not been independently
+checked. Response retention/contact information remains a follow-up decision.
 
-The server installer and Nginx config require host-side validation before launch.
-Public hostname, current secrets and server filesystem have not been modified.
+## Deployment history and routing defect PORTFOLIO-FM-001
 
-## Preparation checks performed
+- fb91fdc: card, page, guides and download setup; Actions run 39297812022 success.
+- Initial /firulet-map/ incorrectly returned the root SPA homepage. The explicit
+  /firulet-map/index.html and PDFs worked. Recorded before correction.
+- fb4ad2b: exact-match Nginx directory routing fix; run 39297940754 success.
+  Public slash URL subsequently verified with correct title and feedback link.
+- Before binary transfer, the download returned 404 as intended. After the user
+  ran the installer, full download/hash/sidecar/range checks above passed.
 
-- Existing repository was clean before editing; main push workflow unchanged.
-- Desktop browser rendering reviewed for product page, guides/feedback section
-  and homepage card; card-to-product navigation works. Mobile CSS included;
-  a narrow-viewport render has not been independently checked.
-- Local anchors, local file targets and back links verified. Both PDF endpoints
-  return 200 with PDF content and match the approved guide files by SHA256.
-- Staged local ZIP matches the pinned release hash. Plain static preview download
-  returns a truthful 404; this does not validate the production Nginx alias.
-- Server installer script passed Git Bash `bash -n`; it was not executed on a
-  server. Nginx is unavailable locally: `nginx -t`, HTTP range/attachment headers
-  and the production filesystem alias remain host-side publication checks.
-- No commit, push, workflow dispatch, server upload or production modification.
+Workflow uses existing SSH secrets HOST/USERNAME/PASSWORD/PORT. No expired token
+was demonstrated; both code deployments succeeded. Every main push runs the
+existing deployment action. No credentials were added to source or docs.
 
-## Publication verification - routing defect PORTFOLIO-FM-001
+## Maintenance
 
-User authorized main push and deployment after the local preview approval.
-Initial commit fb91fdc deployed successfully through run 39297812022, but live
-GET /firulet-map/ returned the portfolio homepage instead of the product page.
-GET /firulet-map/index.html returned the expected product page, both PDFs were
-real PDF responses, and the ZIP correctly returned 404 pending asset upload.
-Expected: the slash URL must serve FIRULET MAP and its feedback link.
-Correction: exact-match Nginx locations for the product directory, internally
-rewriting the slash URL to its index file without the root SPA fallback.
+For this exact approved archive, the server installation command is:
+
+```sh
+sudo bash /var/www/portfolio/tooling/scripts/install-firulet-download.sh "$HOME/FiruletMap-0.1.0-win-x64.zip"
+```
+
+The script verifies the pinned hash, installs atomically and refuses a differing
+archive at the same version path. It does not reload Nginx. Never overwrite 0.1.0
+with a different release: update version, artifact hash, staging and links together.
+Nginx download location has no SPA fallback and directory listing is disabled.
+
+Local preview: `python -m http.server 4337 --bind 127.0.0.1 --directory frontend`.
+The plain static preview does not implement the production download alias and
+returns 404 for the ZIP. Product links/PDFs and ZIP identity were checked locally;
+server script passed `bash -n`; production delivery was checked separately above.
+
+Feedback test `FM-TEST-20261019-01` reached row 2 in the private linked spreadsheet.
+Exclude it from all real feedback counts and metrics; it remains for traceability.
