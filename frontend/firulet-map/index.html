@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FIRULET MAP: una app Windows para explorar notas, tiempos y bends de guitarra. Descargá la versión portable 0.1.0 y compartí tu experiencia.">
+  <title>FIRULET MAP | Ariel Grillo</title>
+  <link rel="icon" href="assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="top"><a href="../index.html#proyectos_personales">← Ariel Grillo / Proyectos</a><a href="#feedback">Compartir feedback ↗</a></header>
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo">
+      <div>
+        <p class="eyebrow"><span class="dot"></span> MÚSICA + SOFTWARE · PRIMERA VERSIÓN</p>
+        <div class="brand"><img src="assets/icon.png" alt="" width="64" height="64"><span>FIRULET MAP</span></div>
+        <h1 id="titulo">De tu guitarra<br>a un mapa de notas.</h1>
+        <p class="intro">Una ayuda para sacar melodías de oído. Cargá una grabación de guitarra, explorá las notas y los bends probables, y contrastá el resultado con el audio original.</p>
+        <div class="actions"><a class="button primary" href="/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip" download>Descargar para Windows <span aria-hidden="true">↓</span></a><a class="button secondary" href="#guias">Leer la guía</a></div>
+        <p class="meta">v0.1.0 · Windows x64 · ZIP portable · 190 MB</p>
+        <p class="aside">La app está en inglés. No necesitás instalar .NET ni Python.</p>
+      </div>
+      <figure class="map-card">
+        <div class="map-header"><span>ESCUCHÁ. MIRÁ. COMPARÁ.</span><span class="live-dot">LOCAL</span></div>
+        <svg viewBox="0 0 520 292" role="img" aria-labelledby="map-title map-desc">
+          <title id="map-title">Ilustración de un mapa de notas</title><desc id="map-desc">Bloques turquesa en el tiempo y una curva amarilla que sube durante un bend. No es una captura ni un análisis real.</desc>
+          <g stroke="#233448" stroke-width="1"><path d="M40 50H493M40 100H493M40 150H493M40 200H493M40 250H493"/><path d="M40 35V250M150 35V250M260 35V250M370 35V250M480 35V250"/></g>
+          <g fill="#176c65" stroke="#36c9b1"><rect x="48" y="184" width="102" height="33" rx="6"/><rect x="168" y="134" width="118" height="33" rx="6"/><rect x="308" y="84" width="165" height="33" rx="6"/></g>
+          <g fill="#e8faf5" font-size="13" font-family="Segoe UI, sans-serif"><text x="60" y="206">E3</text><text x="180" y="156">G3</text><text x="320" y="106">A3</text></g>
+          <g fill="none" stroke="#f1d568" stroke-width="3" stroke-linecap="round"><path d="M50 197Q64 189 78 197T106 197T134 197H146M170 147Q184 139 198 147T226 147T254 147H282M310 98Q326 91 342 98T366 98Q388 98 400 78T436 62Q451 57 470 63"/></g>
+          <path d="M391 47H473" stroke="#b28be6" stroke-width="4" stroke-linecap="round"/><path d="M292 35V250" stroke="#dce8f0" stroke-width="1.5" stroke-dasharray="4 5"/>
+          <g fill="#91a6ba" font-size="11" font-family="Segoe UI, sans-serif"><text x="40" y="276">0 s</text><text x="254" y="276">2 s</text><text x="474" y="276">4 s</text></g>
+        </svg>
+        <div class="legend"><span><i class="teal"></i>Notas</span><span><i class="yellow"></i>Afinación</span><span><i class="purple"></i>Bends probables</span></div>
+        <figcaption>Ilustración del mapa. El resultado real depende de tu grabación.</figcaption>
+      </figure>
+    </section>
+    <section class="steps" aria-label="Cómo funciona">
+      <article><span class="number">01</span><h2>Cargá tu grabación</h2><p>Guitarra aislada, una nota a la vez, con distorsión y sin otros efectos.</p></article>
+      <article><span class="number">02</span><h2>Explorá el mapa</h2><p>Revisá alturas, inicios, finales, curva de afinación y zonas inciertas.</p></article>
+      <article><span class="number">03</span><h2>Volvé a escuchar</h2><p>Reproducí el original o una nota seleccionada, con zoom y cursor sincronizado.</p></article>
+    </section>
+    <section class="details" aria-label="Antes de empezar">
+      <article class="panel"><p class="eyebrow">ENTRADA COMPATIBLE</p><h2>Un WAV, una guitarra.</h2><ul><li>WAV mono PCM de 16 bits.</li><li>44,1 o 48 kHz; hasta 40 segundos.</li><li>Una línea melódica, con distorsión; sin reverb, delay ni otros efectos.</li><li>No necesitás BPM, compás, MIDI ni señal DI.</li></ul><p>El análisis se ejecuta en tu equipo y no sube automáticamente el audio.</p></article>
+      <article class="panel"><p class="eyebrow">QUÉ ESPERAR DE LA 0.1.0</p><h2>Una propuesta para revisar.</h2><p>La detección es imperfecta: algunas notas débiles, repeticiones, finales o bends pueden necesitar revisión. Usá el oído como referencia.</p><p>No incluye acordes, separación de instrumentos, edición de notas, exportación MIDI ni guardado de análisis. El primer análisis puede tardar más.</p><p>La app aún no tiene firma digital. Si Windows impide abrirla, anotá el mensaje y contalo en el feedback.</p></article>
+    </section>
+    <section id="guias" class="resources" aria-labelledby="guias-title"><div><p class="eyebrow">PRIMEROS PASOS</p><h2 id="guias-title">Tu guía de bolsillo.</h2><p>Preparación, análisis, lectura del mapa y reproducción. Cinco páginas para empezar.</p></div><div class="guide-links"><a class="resource" href="guides/FIRULET-MAP-0.1.0-guide-ES.pdf">Guía en español <span>PDF · ES ↗</span></a><a class="resource" href="guides/FIRULET-MAP-0.1.0-guide-EN.pdf" lang="en">English guide <span>PDF · EN ↗</span></a></div></section>
+    <section id="feedback" class="feedback" aria-labelledby="feedback-title"><div><p class="eyebrow">AYUDAME A MEJORARLA</p><h2 id="feedback-title">¿Te sirvió para sacar esa melodía?</h2><p>Contame qué funcionó, dónde te trabaste y qué cambiarías. El formulario está en español, lleva unos 3-5 minutos y no requiere subir audio. El contacto es opcional.</p></div><a class="button primary" href="https://docs.google.com/forms/d/e/1FAIpQLSff61AyI7QJ6uKt__DELQNoMDd3qc9uB71tVndK2lcOV4g_0w/viewform?usp=header" target="_blank" rel="noopener noreferrer">Dar feedback ↗</a></section>
+    <section class="install" aria-label="Cómo abrir el portable"><h2>Para abrir el portable</h2><p>Descargá el ZIP, extraé <strong>todo su contenido</strong> en una carpeta y ejecutá <code>FiruletMap.App.exe</code>. Conservá las DLL y subcarpetas. No ejecutes la app desde dentro del ZIP.</p><a href="/downloads/firulet-map/v0.1.0/FiruletMap-0.1.0-win-x64.zip.sha256" download>Descargar verificación SHA256</a></section>
+  </main>
+  <footer><span>FIRULET MAP · v0.1.0</span><a href="../index.html#contacto">Un proyecto de Ariel Grillo</a></footer>
+</body>
+</html>
