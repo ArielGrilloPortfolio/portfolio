@@ -76,3 +76,14 @@ Public hostname, current secrets and server filesystem have not been modified.
   server. Nginx is unavailable locally: `nginx -t`, HTTP range/attachment headers
   and the production filesystem alias remain host-side publication checks.
 - No commit, push, workflow dispatch, server upload or production modification.
+
+## Publication verification - routing defect PORTFOLIO-FM-001
+
+User authorized main push and deployment after the local preview approval.
+Initial commit fb91fdc deployed successfully through run 39297812022, but live
+GET /firulet-map/ returned the portfolio homepage instead of the product page.
+GET /firulet-map/index.html returned the expected product page, both PDFs were
+real PDF responses, and the ZIP correctly returned 404 pending asset upload.
+Expected: the slash URL must serve FIRULET MAP and its feedback link.
+Correction: exact-match Nginx locations for the product directory, internally
+rewriting the slash URL to its index file without the root SPA fallback.
