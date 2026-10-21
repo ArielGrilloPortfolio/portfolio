@@ -1,6 +1,6 @@
 # FIRULET MAP 0.3.3 — local preparation only
 
-Status: prepared for review, not published. No main push, VPS upload or deployment.
+Status: published and verified on2026-10-21. Authorized main commit00f13c0 deployed successfully in Action39616659514. User uploaded both ZIPs and ran the checksum/publication helper; full public HTTPS identities and HTTP206 ranges match.
 FiruletMap Full UAT approved; release ZIPs rebuilt from accepted application source.
 Portfolio changes include both download cards, seven-page ES/EN PDFs, MIDI/synth/
 waveform features and limits, release notes, history and homepage card.
@@ -16,11 +16,11 @@ See firulet-map docs/evaluation/iteration-3-session-4 and docs/releases/v0.3.3.
 Installer upgrade/lifecycle still requires admin testing: automated probe was
 refused before modifying Program Files; existing0.2.0 install unchanged.
 
-## Later publication, after explicit approval
+## Completed publication procedure — retained for maintenance
 
 1. Transfer the two ZIPs and tooling/scripts/install-firulet-release-0.3.3.sh
    to a VPS staging folder, e.g. $HOME/firulet-map-v0.3.3, using WinSCP/PSCP/SCP.
-   VPS217.160.228.106. This step has not been performed.
+   VPS217.160.228.106. Completed by the user on2026-10-21.
 2. Verify without writes:
 
 ```sh
@@ -36,10 +36,15 @@ sudo bash "$HOME/firulet-map-v0.3.3/install-firulet-release-0.3.3.sh" "$HOME/fir
 The helper checks both inputs first, refuses different existing files and copies
 atomically per archive. It publishes binaries/sidecars; no Nginx/site reload.
 4. Only after assets and site review, authorize portfolio main push, which triggers
-   the existing deployment Action. Preparation is not deployment authorization.
+   the existing deployment Action. Deployment was explicitly authorized; Action39616659514 completed successfully.
 5. Verify public download bytes/hashes/content type/attachment/ranges, PDFs,
    release notes, history and feedback links. Record actual publication evidence;
    do not reuse local checks as production success.
 
 Portable189702818bytes; installer ZIP187427910bytes. Published0.1.0/0.2.0
 archives must retain their exact bytes. No automatic updater or digital signing.
+
+Public verification evidence: docs/FIRULET-MAP-0.3.3-PUBLIC-VERIFICATION.json.
+Previous queued API snapshots are historical; latest workflow result is success.
+Installer admin lifecycle/final session acceptance remain pending in firulet-map.
+Published archives/PDFs are immutable; this documentation update changes no ZIP.
