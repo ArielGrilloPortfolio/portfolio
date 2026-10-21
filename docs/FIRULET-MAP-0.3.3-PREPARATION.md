@@ -46,5 +46,8 @@ archives must retain their exact bytes. No automatic updater or digital signing.
 
 Public verification evidence: docs/FIRULET-MAP-0.3.3-PUBLIC-VERIFICATION.json.
 Previous queued API snapshots are historical; latest workflow result is success.
-Installer admin lifecycle/final session acceptance remain pending in firulet-map.
+User subsequently validates installation/update and accepts deliverables. I3:S4 and iteration3 closed; no new uninstall/reinstall or clean-host test inferred.
 Published archives/PDFs are immutable; this documentation update changes no ZIP.
+
+Final acceptance2026-10-21: installation/update and deliverables approved.
+Earlier pending lifecycle statements describe preparation, not current acceptance.
