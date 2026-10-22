@@ -1,4 +1,4 @@
-# FIRULET MAP0.4.3 — prepared, not deployed
+# FIRULET MAP0.4.3 â€” prepared, not deployed
 
 Local preparation only; user explicitly prohibits deployment. Branch
 codex/firulet-map-0.4.3. Do not push to main or trigger Actions without approval.
@@ -26,3 +26,13 @@ docs/releases/v0.4.3/preparation-verification.json.
 
 User approved the page and both guides and explicitly authorized commit/push to main, including the existing deployment workflow. This supersedes the preparation-only restriction above. ZIP upload to the VPS and public download verification remain pending. No public release verification is claimed by this commit.
 
+
+## Published and verified — 2026-10-22
+
+User uploaded both ZIPs and ran the VPS helper. Public home/product/changelog,
+ZIPs, ES/EN guides and notes returned HTTP 200. Complete ZIP download hashes and
+sizes match release originals; guide hashes match. Release notes match Git LF
+bytes exactly; website manifest now uses those served hashes rather than the
+Windows CRLF source hashes. Historical preparation restrictions above superseded.
+Evidence: FiruletMap docs/releases/v0.4.3/publication-verification.json.
+Installation/upgrade acceptance and I4:S4 closure remain separate, pending.
