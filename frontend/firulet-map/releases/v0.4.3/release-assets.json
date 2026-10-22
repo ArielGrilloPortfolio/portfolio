@@ -1,0 +1,37 @@
+{
+  "product": "FIRULET MAP",
+  "version": "0.4.3",
+  "publicationStatus": "prepared-not-published",
+  "sourceCommit": "3c766fca9d3bffd4058fff7424865e02fec7e477",
+  "setupSha256": "51b0b4b26f9a38a84159c466831cb08bc375e0b44d35c0ab6c861310fd75cd0f",
+  "downloads": [
+    {
+      "file": "FiruletMap-0.4.3-win-x64.zip",
+      "bytes": 189717584,
+      "sha256": "38eba26ba6da2387862bda1c2f8dd427132d4dc5a8e9777b20684f619e314659"
+    },
+    {
+      "file": "FiruletMap-0.4.3-win-x64-installer.zip",
+      "bytes": 187460095,
+      "sha256": "5c43951e35b55519893113b88669d2bb1d955deb1a48d185da28b3c01886a75c"
+    }
+  ],
+  "documents": [
+    {
+      "file": "FIRULET-MAP-0.4.3-guide-EN.pdf",
+      "sha256": "df404e47aa547e273aeec1138c570f18583f9a086b5f53f1e24fcb3a606b2629"
+    },
+    {
+      "file": "FIRULET-MAP-0.4.3-guide-ES.pdf",
+      "sha256": "e635cc24c96d25306cd75b1961a688375bbe67565b09a66b450064496d4424c4"
+    },
+    {
+      "file": "RELEASE-NOTES-EN.md",
+      "sha256": "6103a5445f8edca33c07e52452c82ad0aed5c4c6a1b0f6ccd520ef842548e66a"
+    },
+    {
+      "file": "RELEASE-NOTES-ES.md",
+      "sha256": "dbe329a0bbdf8e81a22b24d2c9039c08ffc22238117503b946d80048df8aeef0"
+    }
+  ]
+}
