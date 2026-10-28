@@ -1,0 +1,3 @@
+
+# Preserve prepared release-note bytes for published SHA256 checks.
+frontend/firulet-map/releases/v0.6.8/RELEASE-NOTES-*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
