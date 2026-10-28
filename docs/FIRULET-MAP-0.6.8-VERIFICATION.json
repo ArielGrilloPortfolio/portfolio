@@ -1,0 +1,182 @@
+{
+  "version": "0.6.8",
+  "preview": "http://127.0.0.1:4342/firulet-map/#descargas",
+  "checkedLocalLinks": 34,
+  "links": [
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/#contenido",
+      "status": 200,
+      "bytes": "11563"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/#descargas",
+      "status": 200,
+      "bytes": "11563"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/#feedback",
+      "status": 200,
+      "bytes": "11563"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/#guias",
+      "status": 200,
+      "bytes": "11563"
+    },
+    {
+      "url": "http://127.0.0.1:4342/index.html#contacto",
+      "status": 200,
+      "bytes": "19837"
+    },
+    {
+      "url": "http://127.0.0.1:4342/index.html#proyectos_personales",
+      "status": 200,
+      "bytes": "19837"
+    },
+    {
+      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64-installer.zip",
+      "status": 200,
+      "bytes": "187580951"
+    },
+    {
+      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64-installer.zip.sha256",
+      "status": 200,
+      "bytes": "106"
+    },
+    {
+      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64.zip",
+      "status": 200,
+      "bytes": "189832577"
+    },
+    {
+      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64.zip.sha256",
+      "status": 200,
+      "bytes": "96"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/assets/icon.png",
+      "status": 200,
+      "bytes": "3014"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/changelog.html",
+      "status": 200,
+      "bytes": "9277"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/guides/FIRULET-MAP-0.6.8-guide-EN.pdf",
+      "status": 200,
+      "bytes": "58645"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/guides/FIRULET-MAP-0.6.8-guide-ES.pdf",
+      "status": 200,
+      "bytes": "60230"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "3007"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "3319"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/styles.css?v=0.6.8",
+      "status": 200,
+      "bytes": "6196"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/changelog.html#contenido",
+      "status": 200,
+      "bytes": "9277"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/",
+      "status": 200,
+      "bytes": "11563"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/#descargas",
+      "status": 200,
+      "bytes": "11563"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/assets/icon.png",
+      "status": 200,
+      "bytes": "3014"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.2.0/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "2893"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.2.0/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "3133"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.3.3/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "1960"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.3.3/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "2099"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.4.3/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "1965"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.4.3/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "2038"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.25/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "3540"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.25/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "3685"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.26/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "1016"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.26/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "1079"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-EN.md",
+      "status": 200,
+      "bytes": "3007"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-ES.md",
+      "status": 200,
+      "bytes": "3319"
+    },
+    {
+      "url": "http://127.0.0.1:4342/firulet-map/styles.css?v=0.6.8",
+      "status": 200,
+      "bytes": "6196"
+    }
+  ],
+  "guideBytesExact": true,
+  "zipHeadByteCountsAndSidecars": true,
+  "productionChanged": false,
+  "browserVisualReview": "desktop download cards and rendered version/resources reviewed",
+  "newNotesAndDownloadsMatchFinalAssets": true
+}
