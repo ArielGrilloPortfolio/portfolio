@@ -1,6 +1,6 @@
 {
   "version": "0.6.8",
-  "publicationStatus": "published-verified",
+  "publicationStatus": "published-verified-accepted",
   "website": {
     "version": "0.6.8",
     "verifiedAt": "2026-10-28T11:05:22.901065+00:00",
@@ -56,7 +56,15 @@
     "newDownloadLinksPresent": true,
     "publicZipVerification": "publication-verification.json",
     "releaseNoteByteIdentity": "exact prepared CRLF preserved through Git attributes;no ZIP rebuild",
-    "installationUpgradeAcceptance": "pending"
+    "installationUpgradeAcceptance": {
+      "at": "2026-10-28T11:12:23+00:00",
+      "result": "OK",
+      "version": "0.6.8",
+      "scope": "Installation, upgrade and all deliverables; explicit closure of I6:S3 and iteration 6, including FM-BUG-069 release document delivery.",
+      "source": "Explicit user acceptance and commit/push request.",
+      "additionalDeliveryReviewMinutes": null
+    },
+    "deliveryAcceptance": "docs/releases/v0.6.8/delivery-acceptance.json"
   },
   "downloads": {
     "version": "0.6.8",
@@ -85,10 +93,35 @@
       }
     ],
     "websiteActivation": "published-and-verified",
-    "installationAcceptance": "pending",
+    "installationAcceptance": {
+      "at": "2026-10-28T11:12:23+00:00",
+      "result": "OK",
+      "version": "0.6.8",
+      "scope": "Installation, upgrade and all deliverables; explicit closure of I6:S3 and iteration 6, including FM-BUG-069 release document delivery.",
+      "source": "Explicit user acceptance and commit/push request.",
+      "additionalDeliveryReviewMinutes": null
+    },
     "userReceipt": "User reports successful VPS helper execution; screenshot confirms checksum verification and ZIP installation.",
     "websiteEvidence": "website-publication-verification.json",
-    "portfolioCommit": "bbf982966c78e3d7a4249edb3e58d52f62321cc5"
+    "portfolioCommit": "bbf982966c78e3d7a4249edb3e58d52f62321cc5",
+    "deliveryAcceptance": "docs/releases/v0.6.8/delivery-acceptance.json"
   },
-  "installationUpgradeAcceptance": "pending"
+  "installationUpgradeAcceptance": {
+    "version": "0.6.8",
+    "status": "published-verified-accepted",
+    "acceptance": {
+      "at": "2026-10-28T11:12:23+00:00",
+      "result": "OK",
+      "version": "0.6.8",
+      "scope": "Installation, upgrade and all deliverables; explicit closure of I6:S3 and iteration 6, including FM-BUG-069 release document delivery.",
+      "source": "Explicit user acceptance and commit/push request.",
+      "additionalDeliveryReviewMinutes": null
+    },
+    "installation": "OK (user-reported)",
+    "upgrade": "OK (user-reported)",
+    "deliverables": "OK (user-reported)",
+    "session": "I6:S3 done",
+    "iteration": 6,
+    "immutableArtifactsUnchanged": true
+  }
 }

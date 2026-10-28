@@ -18,3 +18,8 @@ Local checks: 34 internal links, exact guide bytes, download sizes/checksums, de
 User confirms the VPS helper completed. Both public ZIP streams match their exact prepared sizes/SHA256 and checksum sidecars. The release branch was fast-forwarded to main (6fa8528); deployment succeeded. Follow-up bbf9829 preserves exact prepared Markdown bytes through Git attributes, fixing FM-BUG-069 without changing ZIPs. The second deployment also succeeded (Actions40677094344).
 
 Public home/product/history, both PDF guides, both release notes, metadata and download links are verified. `FIRULET-MAP-0.6.8-VERIFICATION.json` contains current evidence. The preparation text above is historical. No new ZIP upload is needed. Windows installation/upgrade and final deliverable acceptance remain pending; iteration 6 is not closed.
+
+
+## Final acceptance - 28 October 2026
+
+Installation, upgrade and all deliverables explicitly accepted by the user. I6:S3 and iteration 6 are closed. This supersedes historical pending-acceptance entries. Public 0.6.8 ZIPs, guides and website remain unchanged. No additional human review minutes were reported or inferred. See FIRULET-MAP-0.6.8-VERIFICATION.json.
