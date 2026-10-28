@@ -1,4 +1,4 @@
-# FIRULET MAP 0.6.8 - prepared, not deployed
+# FIRULET MAP 0.6.8 - published and verified
 
 The branch `codex/firulet-map-0.6.8-release` contains the website, release history, 11-page ES/EN guides, release notes, metadata and versioned VPS helper. Production `main` remains on 0.5.26 until the new ZIP upload. Binaries are staged in ignored `.local/release-assets/` and are not committed.
 
@@ -11,3 +11,10 @@ Transfer the two ZIPs and the local `install-firulet-release-0.6.8.sh` helper to
 After upload/helper execution, verify the public ZIPs and merge this branch into main under the existing website-update request. This avoids broken new download links before the files exist. Public download verification, installation/upgrade and deliverable acceptance remain separate release gates.
 
 Local checks: 34 internal links, exact guide bytes, download sizes/checksums, desktop download-card layout and notes reviewed. No public deployment is inferred from local preview or branch push.
+
+
+## Published - 28 October 2026
+
+User confirms the VPS helper completed. Both public ZIP streams match their exact prepared sizes/SHA256 and checksum sidecars. The release branch was fast-forwarded to main (6fa8528); deployment succeeded. Follow-up bbf9829 preserves exact prepared Markdown bytes through Git attributes, fixing FM-BUG-069 without changing ZIPs. The second deployment also succeeded (Actions40677094344).
+
+Public home/product/history, both PDF guides, both release notes, metadata and download links are verified. `FIRULET-MAP-0.6.8-VERIFICATION.json` contains current evidence. The preparation text above is historical. No new ZIP upload is needed. Windows installation/upgrade and final deliverable acceptance remain pending; iteration 6 is not closed.

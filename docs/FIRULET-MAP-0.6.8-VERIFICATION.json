@@ -1,182 +1,94 @@
 {
   "version": "0.6.8",
-  "preview": "http://127.0.0.1:4342/firulet-map/#descargas",
-  "checkedLocalLinks": 34,
-  "links": [
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/#contenido",
-      "status": 200,
-      "bytes": "11563"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/#descargas",
-      "status": 200,
-      "bytes": "11563"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/#feedback",
-      "status": 200,
-      "bytes": "11563"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/#guias",
-      "status": 200,
-      "bytes": "11563"
-    },
-    {
-      "url": "http://127.0.0.1:4342/index.html#contacto",
-      "status": 200,
-      "bytes": "19837"
-    },
-    {
-      "url": "http://127.0.0.1:4342/index.html#proyectos_personales",
-      "status": 200,
-      "bytes": "19837"
-    },
-    {
-      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64-installer.zip",
-      "status": 200,
-      "bytes": "187580951"
-    },
-    {
-      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64-installer.zip.sha256",
-      "status": 200,
-      "bytes": "106"
-    },
-    {
-      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64.zip",
-      "status": 200,
-      "bytes": "189832577"
-    },
-    {
-      "url": "http://127.0.0.1:4342/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64.zip.sha256",
-      "status": 200,
-      "bytes": "96"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/assets/icon.png",
-      "status": 200,
-      "bytes": "3014"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/changelog.html",
-      "status": 200,
-      "bytes": "9277"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/guides/FIRULET-MAP-0.6.8-guide-EN.pdf",
-      "status": 200,
-      "bytes": "58645"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/guides/FIRULET-MAP-0.6.8-guide-ES.pdf",
-      "status": 200,
-      "bytes": "60230"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "3007"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "3319"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/styles.css?v=0.6.8",
-      "status": 200,
-      "bytes": "6196"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/changelog.html#contenido",
-      "status": 200,
-      "bytes": "9277"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/",
-      "status": 200,
-      "bytes": "11563"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/#descargas",
-      "status": 200,
-      "bytes": "11563"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/assets/icon.png",
-      "status": 200,
-      "bytes": "3014"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.2.0/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "2893"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.2.0/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "3133"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.3.3/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "1960"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.3.3/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "2099"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.4.3/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "1965"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.4.3/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "2038"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.25/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "3540"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.25/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "3685"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.26/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "1016"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.5.26/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "1079"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-EN.md",
-      "status": 200,
-      "bytes": "3007"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/releases/v0.6.8/RELEASE-NOTES-ES.md",
-      "status": 200,
-      "bytes": "3319"
-    },
-    {
-      "url": "http://127.0.0.1:4342/firulet-map/styles.css?v=0.6.8",
-      "status": 200,
-      "bytes": "6196"
-    }
-  ],
-  "guideBytesExact": true,
-  "zipHeadByteCountsAndSidecars": true,
-  "productionChanged": false,
-  "browserVisualReview": "desktop download cards and rendered version/resources reviewed",
-  "newNotesAndDownloadsMatchFinalAssets": true
+  "publicationStatus": "published-verified",
+  "website": {
+    "version": "0.6.8",
+    "verifiedAt": "2026-10-28T11:05:22.901065+00:00",
+    "portfolioCommit": "bbf982966c78e3d7a4249edb3e58d52f62321cc5",
+    "deployment": [
+      {
+        "id": 40677094344,
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/ArielGrilloPortfolio/portfolio/actions/runs/40677094344",
+        "head_sha": "bbf982966c78e3d7a4249edb3e58d52f62321cc5"
+      }
+    ],
+    "productUrl": "https://www.arielgrillo.es/firulet-map/",
+    "resources": [
+      {
+        "url": "https://www.arielgrillo.es/firulet-map/",
+        "sha256": "5f497cb4a548838b5c9f0a418381947063e806de99189b806fe5f36b8272d59d",
+        "exactCommittedContent": true
+      },
+      {
+        "url": "https://www.arielgrillo.es/firulet-map/changelog.html",
+        "sha256": "e1be16fd96106323f6a7e9dd80e545c05f0709daa7afdf55b8143336b3b09f81",
+        "exactCommittedContent": true
+      },
+      {
+        "url": "https://www.arielgrillo.es/index.html",
+        "sha256": "bb9cb08d801a3a18dfd565486d9fe31b5e4a9d17065e0b74deeb2f6cc82c0c76",
+        "exactCommittedContent": true
+      },
+      {
+        "url": "https://www.arielgrillo.es/firulet-map/guides/FIRULET-MAP-0.6.8-guide-EN.pdf",
+        "bytes": 58645,
+        "sha256": "10d08c5197adab693c7448e13ad0f1ebd8057a06a66aa5ba9790392cf1b81b02"
+      },
+      {
+        "url": "https://www.arielgrillo.es/firulet-map/guides/FIRULET-MAP-0.6.8-guide-ES.pdf",
+        "bytes": 60230,
+        "sha256": "0bdaceef69420f2788e770284aec90c2b4e45fed16194dd497c740716906a4cb"
+      },
+      {
+        "url": "https://www.arielgrillo.es/firulet-map/releases/v0.6.8/RELEASE-NOTES-EN.md",
+        "bytes": 3023,
+        "sha256": "ace29f087ecaea71ddc25b0c5bc9d7ac18ac4c86e5d68d4617a78f7048452a68"
+      },
+      {
+        "url": "https://www.arielgrillo.es/firulet-map/releases/v0.6.8/RELEASE-NOTES-ES.md",
+        "bytes": 3335,
+        "sha256": "ce89b20234c0d089e1d9f9ebce43d7b63116644a3aadfb265a228e6e138b4925"
+      }
+    ],
+    "releaseMetadataExact": true,
+    "newDownloadLinksPresent": true,
+    "publicZipVerification": "publication-verification.json",
+    "releaseNoteByteIdentity": "exact prepared CRLF preserved through Git attributes;no ZIP rebuild",
+    "installationUpgradeAcceptance": "pending"
+  },
+  "downloads": {
+    "version": "0.6.8",
+    "verifiedAt": "2026-10-28T11:01:48.024074+00:00",
+    "method": "Complete HTTPS body streams,exact byte counts and SHA256,plus published checksum sidecars",
+    "downloads": [
+      {
+        "file": "FiruletMap-0.6.8-win-x64.zip",
+        "url": "https://www.arielgrillo.es/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64.zip",
+        "status": 200,
+        "contentType": "application/zip",
+        "bytes": 189832577,
+        "sha256": "2bf5991ef9335de7bbfcc3ed575f828b3b69c5dc59c23b5826e4b09ae88e8014",
+        "sidecarMatch": true,
+        "seconds": 7.59
+      },
+      {
+        "file": "FiruletMap-0.6.8-win-x64-installer.zip",
+        "url": "https://www.arielgrillo.es/downloads/firulet-map/v0.6.8/FiruletMap-0.6.8-win-x64-installer.zip",
+        "status": 200,
+        "contentType": "application/zip",
+        "bytes": 187580970,
+        "sha256": "15c7eb80ddafba2462779198a323c82bf4fe9930b89842d73a8cd52514551292",
+        "sidecarMatch": true,
+        "seconds": 8.3
+      }
+    ],
+    "websiteActivation": "published-and-verified",
+    "installationAcceptance": "pending",
+    "userReceipt": "User reports successful VPS helper execution; screenshot confirms checksum verification and ZIP installation.",
+    "websiteEvidence": "website-publication-verification.json",
+    "portfolioCommit": "bbf982966c78e3d7a4249edb3e58d52f62321cc5"
+  },
+  "installationUpgradeAcceptance": "pending"
 }
