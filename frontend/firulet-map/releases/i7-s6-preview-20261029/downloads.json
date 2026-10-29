@@ -1,0 +1,41 @@
+{
+  "product": "FIRULET MAP",
+  "channel": "experimental Avalonia preview",
+  "directory": "i7-s6-preview-20261029",
+  "releaseStatus": "not final0.7.0; Mac native validation pending",
+  "files": [
+    {
+      "id": "windows-portable",
+      "filename": "FiruletMap-0.7.0-alpha.17-win-x64.zip",
+      "version": "0.7.0-alpha.17",
+      "target": "windows-x64",
+      "status": "accepted",
+      "bytes": 201002216,
+      "sha256": "e91ababc6ebd2f7d5c90b89418319c3435e2ccbe3c1d96d51bb3220cf32a64dd",
+      "sourceUrl": "https://github.com/ArielGrilloPortfolio/portfolio/releases/download/firulet-map-i7-s6-preview-20261029/FiruletMap-0.7.0-alpha.17-win-x64.zip",
+      "downloadUrl": "/downloads/firulet-map/i7-s6-preview-20261029/FiruletMap-0.7.0-alpha.17-win-x64.zip"
+    },
+    {
+      "id": "windows-installer",
+      "filename": "FiruletMap-0.7.0-alpha.17-win-x64-setup.exe",
+      "version": "0.7.0-alpha.17",
+      "target": "windows-x64",
+      "status": "installer-and-upgrade-accepted",
+      "bytes": 191827014,
+      "sha256": "aa6efb5ffd229c450706906fbe7a0551d1675d30246c8013fcfdf134d8e7ae1b",
+      "sourceUrl": "https://github.com/ArielGrilloPortfolio/portfolio/releases/download/firulet-map-i7-s6-preview-20261029/FiruletMap-0.7.0-alpha.17-win-x64-setup.exe",
+      "downloadUrl": "/downloads/firulet-map/i7-s6-preview-20261029/FiruletMap-0.7.0-alpha.17-win-x64-setup.exe"
+    },
+    {
+      "id": "mac-app",
+      "filename": "FiruletMap-0.7.0-alpha.18-osx-arm64.zip",
+      "version": "0.7.0-alpha.18",
+      "target": "macos-arm64",
+      "status": "experimental-native-validation-pending",
+      "bytes": 166686997,
+      "sha256": "619023ae7c09deb64f8e47f0b99682c0c31acc57b7c177f85e23458b797dc66a",
+      "sourceUrl": "https://github.com/ArielGrilloPortfolio/portfolio/releases/download/firulet-map-i7-s6-preview-20261029/FiruletMap-0.7.0-alpha.18-osx-arm64.zip",
+      "downloadUrl": "/downloads/firulet-map/i7-s6-preview-20261029/FiruletMap-0.7.0-alpha.18-osx-arm64.zip"
+    }
+  ]
+}
