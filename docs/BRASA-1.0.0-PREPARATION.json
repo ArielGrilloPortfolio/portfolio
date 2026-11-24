@@ -1,5 +1,5 @@
 {
-  "status": "public-archive-verified-website-prepared",
+  "status": "published-and-verified",
   "product": "Brasa",
   "version": "1.0.0",
   "archive": "Brasa-1.0.0-win-x64-installer.zip",
@@ -13,5 +13,8 @@
   "proposedCanonicalDownloadUrl": "https://www.arielgrillo.es/downloads/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
   "productPagePlanned": "/brasa/",
   "websiteChanged": true,
-  "binariesUploaded": true
+  "binariesUploaded": true,
+  "publicProductUrl": "https://www.arielgrillo.es/brasa/",
+  "canonicalDownloadVerified": true,
+  "websitePublished": true
 }

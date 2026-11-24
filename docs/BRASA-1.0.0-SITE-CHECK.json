@@ -45,7 +45,7 @@
   "internalAnchors": "passed",
   "homepageCard": "present",
   "snapshot": "actual Brasa v1.0.0 in REAPER7.83",
-  "productionRouting": "pending existing nginx deployment validation",
+  "productionRouting": "passed in successful existing deployment; exact slash routing, new canonical alias, missing ZIP404",
   "visualReview": {
     "desktop": "passed",
     "mobile390x844": "passed",
@@ -59,5 +59,7 @@
     "frontend/brasa/styles.css": "e2bac548b703ee4ab4aab5caf69ff08a21d493853ce307114ab952c7fec0ff48",
     "frontend/brasa/assets/brasa-v1.0.0-reaper.png": "6e0558c90a0b79dade2bc4cdcbea177a7ecaa3f767668209a4755b1a434fed7d",
     "frontend/brasa/guides/INSTALLATION-1.0.0.md": "db1f7fd93fd5ca91ac6a623eb8ecb8f1e613fc3a916aa69cf7a8100796f65116"
-  }
+  },
+  "frontendSha256Note": "Hashes describe Windows working-tree bytes. Production verified against exact committed Git blobs, including normal text newline conversion.",
+  "publicVisualReview": "Published home card and navigation to /brasa/ observed in browser; screenshot saved as publication evidence."
 }

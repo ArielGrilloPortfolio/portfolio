@@ -1,0 +1,63 @@
+{
+  "verifiedAtUtc": "2026-11-24T18:44:55.900421+00:00",
+  "portfolioCommit": "ce324f7546cb9ac64f142c5aa54d739705c21de0",
+  "deployment": [
+    {
+      "id": 45462421044,
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/ArielGrilloPortfolio/portfolio/actions/runs/45462421044"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.arielgrillo.es/brasa/",
+      "status": 200,
+      "bytes": 6093,
+      "sha256": "7b8164c178385d6fbcd48b682ede15b9a1c89ad329b237c37cb71f575225d41e",
+      "matchesCommittedBlob": true
+    },
+    {
+      "url": "https://www.arielgrillo.es/brasa/styles.css?v=1.0.0",
+      "status": 200,
+      "bytes": 7121,
+      "sha256": "5aea19b689439936a3190d044f413a5591eae90c2d2e77575d03809833c34590",
+      "matchesCommittedBlob": true
+    },
+    {
+      "url": "https://www.arielgrillo.es/brasa/assets/brasa-v1.0.0-reaper.png",
+      "status": 200,
+      "bytes": 155744,
+      "sha256": "6e0558c90a0b79dade2bc4cdcbea177a7ecaa3f767668209a4755b1a434fed7d",
+      "matchesCommittedBlob": true
+    },
+    {
+      "url": "https://www.arielgrillo.es/brasa/guides/INSTALLATION-1.0.0.md",
+      "status": 200,
+      "bytes": 2065,
+      "sha256": "db1f7fd93fd5ca91ac6a623eb8ecb8f1e613fc3a916aa69cf7a8100796f65116",
+      "matchesCommittedBlob": true
+    },
+    {
+      "url": "https://www.arielgrillo.es/index.html",
+      "status": 200,
+      "bytes": 20928,
+      "sha256": "770e5453149fd434b065c08aac9e2655d710dba18cbc2b36beb231c8bfb21293",
+      "matchesCommittedBlob": true
+    }
+  ],
+  "canonicalDownload": {
+    "url": "https://www.arielgrillo.es/downloads/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+    "status": 200,
+    "bytes": 2348098,
+    "sha256": "327ed1cf0674a07b4e1ae27593579564ae5ad972f19b0898610d63767da00b87",
+    "contentType": "application/zip",
+    "contentDisposition": "attachment",
+    "sidecarMatches": true,
+    "range206": true
+  },
+  "slashRedirect": "passed",
+  "missingBinary404": "passed",
+  "firuletMapStillReachable": true,
+  "textVerification": "exact Git blob bytes; Windows working-tree CRLF normalization is not a server mismatch"
+}
