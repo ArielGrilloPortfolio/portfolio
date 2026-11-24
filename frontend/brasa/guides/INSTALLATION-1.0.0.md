@@ -10,4 +10,4 @@ Re-run setup to reinstall/update the same installation. Setup refuses a locked o
 
 The setup executable is unsigned. No signing or SmartScreen reputation is claimed. It contains the CLAP and documentation; it does not download runtime dependencies. MSVC runtime is statically linked. There is no new Brasa EULA or license grant; existing third-party notices are supplied under third-party.
 
-Version 1.0.0 identifies this packaged build. DSP remains experimental: human listening acceptance, full real-host gesture/audio cancellation and driver acceptance remain pending. See README.md and the repository DSP reports for existing measurement limitations.
+Brasa 1.0.0 was finalized with explicit user acceptance on 2026-11-24 after testing in REAPER with real drums. The published installer and ZIP remain unchanged. Broader listening, full real-host DELTA lifecycle coverage and audio-driver qualification remain follow-up coverage; no new result for those tests is inferred. Bundled documentation reflects the earlier packaging-time status.

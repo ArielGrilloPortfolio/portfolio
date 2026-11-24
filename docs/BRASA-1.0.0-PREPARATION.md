@@ -58,3 +58,7 @@ La Action existente Deployment-Portfolio45462421044 finalizó correctamente para
 El HTML, CSS, captura y guía publicados coinciden byte a byte con los blobs del commit (la conversión CRLF del working tree Windows se distingue de los bytes de Git). ZIP canónico completo2348098bytes/SHA256correcto, sidecar y HTTP206 verificados; /brasa redirige a /brasa/, un ZIP inexistente devuelve404 y FIRULET MAP sigue accesible. Evidencia: BRASA-1.0.0-WEBSITE-PUBLICATION-VERIFICATION.json.
 
 La Action de deploy se conserva sin modificaciones. Binarios subidos exclusivamente por el usuario; no se usaron otros mecanismos de transporte. La documentación de preparación y comandos anteriores queda como historial, no como una subida pendiente.
+
+## Cierre final aceptado - 2026-11-24
+
+El usuario probó Brasa en REAPER con una batería real, informó un resultado muy bueno y pidió cerrar v1.0.0 como finalizada. Se actualizó el estado de la ficha y la guía web con esa aceptación y un registro de release. El ZIP y el instalador publicados permanecen inmutables; las notas incluidas dentro del paquete reflejan su fecha de empaquetado. No se infieren pruebas adicionales de master/buses, otros instrumentos, lifecycle DELTA o drivers.

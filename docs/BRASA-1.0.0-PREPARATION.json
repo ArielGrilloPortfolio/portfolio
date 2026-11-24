@@ -1,5 +1,5 @@
 {
-  "status": "published-and-verified",
+  "status": "finalized-user-accepted",
   "product": "Brasa",
   "version": "1.0.0",
   "archive": "Brasa-1.0.0-win-x64-installer.zip",
@@ -16,5 +16,8 @@
   "binariesUploaded": true,
   "publicProductUrl": "https://www.arielgrillo.es/brasa/",
   "canonicalDownloadVerified": true,
-  "websitePublished": true
+  "websitePublished": true,
+  "userAcceptanceDate": "2026-11-24",
+  "userAcceptanceScope": "REAPER with real drum material; explicit v1.0.0 closure",
+  "artifactFrozen": true
 }
