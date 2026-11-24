@@ -1,0 +1,11 @@
+{
+  "syntax": "passed",
+  "verifyOnlyNoWrites": "passed",
+  "installAndIdenticalRerun": "passed",
+  "pinnedHashes": "passed",
+  "refusesChangedTarget": "passed",
+  "preservesUnrelatedFile": "passed",
+  "rejectsCorruptUpload": "passed",
+  "websiteChanged": false,
+  "networkTransfersPerformed": false
+}

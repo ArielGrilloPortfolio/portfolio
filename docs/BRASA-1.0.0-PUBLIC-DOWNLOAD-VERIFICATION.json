@@ -1,0 +1,16 @@
+{
+  "verifiedAtUtc": "2026-11-24T18:34:55.437885+00:00",
+  "url": "https://www.arielgrillo.es/downloads/firulet-map/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+  "finalUrl": "https://www.arielgrillo.es/downloads/firulet-map/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+  "status": 200,
+  "bytes": 2348098,
+  "sha256": "327ed1cf0674a07b4e1ae27593579564ae5ad972f19b0898610d63767da00b87",
+  "expectedMatch": true,
+  "contentType": "application/zip",
+  "contentDisposition": "attachment",
+  "sidecar": "327ed1cf0674a07b4e1ae27593579564ae5ad972f19b0898610d63767da00b87  Brasa-1.0.0-win-x64-installer.zip",
+  "rangeStatus": 206,
+  "contentRange": "bytes 0-3/2348098",
+  "zipMagic": "504b0304",
+  "userUploadConfirmed": true
+}

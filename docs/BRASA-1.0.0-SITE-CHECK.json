@@ -1,0 +1,63 @@
+{
+  "preview": "http://127.0.0.1:63538/brasa/",
+  "checks": [
+    {
+      "url": "http://127.0.0.1:63538/brasa/styles.css?v=1.0.0",
+      "status": 200,
+      "bytes": 5876
+    },
+    {
+      "url": "http://127.0.0.1:63538/brasa/../index.html#proyectos_personales",
+      "status": 200,
+      "bytes": 21259
+    },
+    {
+      "url": "http://127.0.0.1:63538/downloads/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+      "status": 200,
+      "bytes": 2348098
+    },
+    {
+      "url": "http://127.0.0.1:63538/brasa/assets/brasa-v1.0.0-reaper.png",
+      "status": 200,
+      "bytes": 155744
+    },
+    {
+      "url": "http://127.0.0.1:63538/downloads/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+      "status": 200,
+      "bytes": 2348098
+    },
+    {
+      "url": "http://127.0.0.1:63538/downloads/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip.sha256",
+      "status": 200,
+      "bytes": 101
+    },
+    {
+      "url": "http://127.0.0.1:63538/brasa/guides/INSTALLATION-1.0.0.md",
+      "status": 200,
+      "bytes": 2065
+    },
+    {
+      "url": "http://127.0.0.1:63538/brasa/../index.html#contacto",
+      "status": 200,
+      "bytes": 21259
+    }
+  ],
+  "internalAnchors": "passed",
+  "homepageCard": "present",
+  "snapshot": "actual Brasa v1.0.0 in REAPER7.83",
+  "productionRouting": "pending existing nginx deployment validation",
+  "visualReview": {
+    "desktop": "passed",
+    "mobile390x844": "passed",
+    "mobileDocumentWidth": 375,
+    "mobileViewportWidth": 390,
+    "downloadAnchor": "passed",
+    "screenshot": "actual v1.0.0, own isolated REAPER session; original screenshot bytes preserved, displayed crop via CSS"
+  },
+  "frontendSha256": {
+    "frontend/brasa/index.html": "ebde405388c948866eda0abdcbeb03c16b7702ac91e29ae60931f4f7b26432c2",
+    "frontend/brasa/styles.css": "e2bac548b703ee4ab4aab5caf69ff08a21d493853ce307114ab952c7fec0ff48",
+    "frontend/brasa/assets/brasa-v1.0.0-reaper.png": "6e0558c90a0b79dade2bc4cdcbea177a7ecaa3f767668209a4755b1a434fed7d",
+    "frontend/brasa/guides/INSTALLATION-1.0.0.md": "db1f7fd93fd5ca91ac6a623eb8ecb8f1e613fc3a916aa69cf7a8100796f65116"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "public-archive-verified-website-prepared",
+  "product": "Brasa",
+  "version": "1.0.0",
+  "archive": "Brasa-1.0.0-win-x64-installer.zip",
+  "bytes": 2348098,
+  "sha256": "327ed1cf0674a07b4e1ae27593579564ae5ad972f19b0898610d63767da00b87",
+  "setupSha256": "98f6410a39294d02b072faa8e232f2bf5a98da87e36f7b4ca676e3165f38f69f",
+  "sourceCommit": "26915d4e007e1c511deaa8eb1e1c3d147ca43e53",
+  "stagingDirectory": "C:\\Code\\portfolio\\.local\\release-assets\\brasa\\v1.0.0",
+  "serverDirectory": "/srv/firulet-map/releases/brasa/v1.0.0",
+  "verificationUrl": "https://www.arielgrillo.es/downloads/firulet-map/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+  "proposedCanonicalDownloadUrl": "https://www.arielgrillo.es/downloads/brasa/v1.0.0/Brasa-1.0.0-win-x64-installer.zip",
+  "productPagePlanned": "/brasa/",
+  "websiteChanged": true,
+  "binariesUploaded": true
+}
