@@ -1,0 +1,15 @@
+{
+  "version": "0.2.2",
+  "archive": "Temple-0.2.2-win-x64-installer.zip",
+  "bytes": 8073285,
+  "zipSha256": "41705abb8c02ca9f1f2f397618c5ef4b52af0892beb8aedebfbb5af8eff74097",
+  "installerSha256": "d0608bfbf78345a924cae6e9b4c16a3760d0bd01a5e163c1639e78899c83d5da",
+  "clapSha256": "703a85956fba82415fb78d291299d7f7f7f186d1f767491b7372480e5f0b2fe1",
+  "portfolioBaseline": "2fce5d655f06da304b8002565c95d1b9278cf7fc",
+  "stage": "C:\\Code\\portfolio\\.local\\release-assets\\temple\\v0.2.2",
+  "preverificationUrl": "https://www.arielgrillo.es/downloads/firulet-map/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip",
+  "canonicalPage": "https://www.arielgrillo.es/temple/",
+  "status": "Prepared locally; user upload and public verification pending",
+  "zipCrc": "passed",
+  "installerExactMatch": "passed"
+}

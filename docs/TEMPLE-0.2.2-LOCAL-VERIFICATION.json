@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "url": "http://127.0.0.1:4345/temple/styles.css?v=0.2.2",
+      "status": 200,
+      "bytes": 7756
+    },
+    {
+      "url": "http://127.0.0.1:4345/downloads/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip",
+      "status": 200,
+      "bytes": 8073285
+    },
+    {
+      "url": "http://127.0.0.1:4345/temple/assets/temple-v0.2.2-native.png",
+      "status": 200,
+      "bytes": 1909961
+    },
+    {
+      "url": "http://127.0.0.1:4345/downloads/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip",
+      "status": 200,
+      "bytes": 8073285
+    },
+    {
+      "url": "http://127.0.0.1:4345/downloads/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip.sha256",
+      "status": 200,
+      "bytes": 102
+    },
+    {
+      "url": "http://127.0.0.1:4345/temple/guides/INSTALLATION-0.2.2.md",
+      "status": 200,
+      "bytes": 2042
+    },
+    {
+      "url": "http://127.0.0.1:4345/temple/guides/README-0.2.2.md",
+      "status": 200,
+      "bytes": 4261
+    }
+  ],
+  "missingZip": 404,
+  "helperSyntax": "passed",
+  "helperVerifyOnly": "passed",
+  "utf8": "passed",
+  "preparedFilesSha256": {
+    "install-temple-release-0.2.2.sh": "11f7019ef963b427e09fec06347cd19991be70790e5ec0a35809b95c8ffcf659",
+    "Temple-0.2.2-win-x64-installer.zip": "41705abb8c02ca9f1f2f397618c5ef4b52af0892beb8aedebfbb5af8eff74097",
+    "Temple-0.2.2-win-x64-installer.zip.sha256": "e7a960f07771cafaa16a004139e02c9842b2cee9baae30c1130d54a878d77bb5",
+    "website/index.html": "40a1c1a8959c0a3c9945978d53d9564707b13df03c9f8e4092e27c6ca1fecec1",
+    "website/Deploy/portfolio_fe.config": "5cd950e43e545e0299ebe9a3e9f4d33eb315f8a35d64a4426c2d8b5ea0552a37",
+    "website/temple/index.html": "389c71fc9439bd8b3730e739569f1bb991784e84cc3c67852def1297bef98a74",
+    "website/temple/styles.css": "52fbf728a6c5aaa6e4d3cc0d5bef6398865fa0eb53579b82549f3bcaaf996afb",
+    "website/temple/assets/temple-v0.2.2-native.png": "a43f5a7c761d0bfe8bf4215d9af0a6e5a45be467c18858b7bea821d9de37ceea",
+    "website/temple/guides/DSP-REPORT-0.2.2.md": "064805a049b47ca7d91a141fe4d1043da8415ef7ecd1898d8204348775d5d8a8",
+    "website/temple/guides/INSTALLATION-0.2.2.md": "0a086dc01e3d5758acbb2ad252fc6a392ea77d18887361398ba8393f13a478cc",
+    "website/temple/guides/README-0.2.2.md": "4bff84dd86d1550a01a62400e373c720fbdd06612fde1ffa4ea272649409554a"
+  },
+  "publicUpload": "pending",
+  "webDeploy": "pending",
+  "browserReview": {
+    "desktop": "passed: page, actual native image, content and controls",
+    "mobile390x844": "passed: no measured horizontal overflow",
+    "encoding": "UTF-8 corrected and verified in browser",
+    "downloadAnchor": "navigation hash observed"
+  }
+}
