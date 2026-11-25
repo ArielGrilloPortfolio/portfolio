@@ -170,19 +170,16 @@ main {
 }
 .picture {
   position:relative;
-  aspect-ratio:1000/850;
   overflow:hidden;
   border:1px solid #4a4031;
   border-radius:9px;
   background:#1b1b19
 }
 .picture img {
-  position:absolute;
-  width:121.4%;
-  max-width:none;
-  height:auto;
-  left:-21.1%;
-  top:-12.1176%
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto
 }
 figcaption {
   display:flex;
