@@ -29,3 +29,7 @@ https://www.arielgrillo.es/downloads/firulet-map/temple/v0.2.2/Temple-0.2.2-win-
 Only after that check, apply the prepared website from .local/release-assets/temple/v0.2.2/website: new temple/ tree, portfolio index and Deploy/portfolio_fe.config. Compare current frontend with baseline 2fce5d655f06da304b8002565c95d1b9278cf7fc first; merge the small Temple card/routes if it changed, rather than overwriting newer work. Commit/push through the existing deployment workflow, then verify /temple/, redirects, canonical download full hash/sidecar/range and missing-file404. No new transfer Actions or hosting provider.
 
 The English product page uses the actual 1400x910 editor screenshot, CLEAN/GLUE explanations, detector/link/mix controls, Delta, Level Match, resizing, installation guide and development-candidate status. It does not claim completed broad listening qualification. The website is staged, not publicly published. Local artifact checks and file hashes are recorded in TEMPLE-0.2.2-LOCAL-VERIFICATION.json.
+
+## Upload confirmed and public ZIP verified — 2026-11-25
+
+The user confirmed the manual VPS upload and helper execution. Full HTTPS ZIP, exact installer hash, ZIP CRC and sidecar passed. Prepared website hashes and unchanged frontend baseline were verified before applying the new Temple page, portfolio card and Nginx routes. Deployment verification follows after the authorized main push.

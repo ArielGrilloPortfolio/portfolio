@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-11-25T16:47:38.909762+00:00",
+  "url": "https://www.arielgrillo.es/downloads/firulet-map/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip",
+  "httpStatus": 200,
+  "bytes": 8073285,
+  "sha256": "41705abb8c02ca9f1f2f397618c5ef4b52af0892beb8aedebfbb5af8eff74097",
+  "installerExactHash": "passed",
+  "zipCrc": "passed",
+  "sidecar": "passed",
+  "contentType": "application/zip",
+  "websiteActivation": "pending",
+  "webGuideNormalization": "Before publication, corrected inherited mojibake and duplicate CR line endings in web-only guides. Installer and ZIP bytes unchanged."
+}
