@@ -1,0 +1,13 @@
+{
+  "zip_verified": true,
+  "helper_syntax": true,
+  "verify_only_no_writes": true,
+  "idempotent_install": true,
+  "sentinel_preserved": true,
+  "different_destination_rejected": true,
+  "corrupt_upload_rejected": true,
+  "draft_local_links": true,
+  "cpu_candidate_status_explicit": true,
+  "active_frontend_unchanged": true,
+  "fixture": "C:\\Code\\portfolio\\.local\\brasa-v2-helper-test-bada71fc751c496bad247ccf0d001774"
+}

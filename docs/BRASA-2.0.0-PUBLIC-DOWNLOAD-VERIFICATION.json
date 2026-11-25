@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-25",
+  "user_upload_confirmed": true,
+  "url": "https://www.arielgrillo.es/downloads/brasa/v2.0.0/Brasa-2.0.0-win-x64-installer.zip",
+  "status": 200,
+  "bytes": 8475257,
+  "sha256": "72a0862cecc85cfcae153d7e7d0e8222d9fffb150971df34cf8045830d783379",
+  "full_stream_verified": true,
+  "sidecar_matches": true,
+  "classification": "development candidate; CPU-overhead criterion not met"
+}

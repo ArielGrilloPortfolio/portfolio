@@ -1,0 +1,11 @@
+{
+  "status": "user upload confirmed and public ZIP/sidecar verified; website activation prepared",
+  "version": "2.0.0",
+  "classification": "development candidate; CPU overhead acceptance failed",
+  "zip": "Brasa-2.0.0-win-x64-installer.zip",
+  "bytes": 8475257,
+  "sha256": "72a0862cecc85cfcae153d7e7d0e8222d9fffb150971df34cf8045830d783379",
+  "setup_sha256": "4cb6740364f9cf86af4275a1d85440784a139afee78a2d61043ad70a6dac352c",
+  "staged_website": "C:\\Code\\portfolio\\.local\\release-assets\\brasa\\v2.0.0\\website",
+  "public_url": "https://www.arielgrillo.es/downloads/brasa/v2.0.0/Brasa-2.0.0-win-x64-installer.zip"
+}
