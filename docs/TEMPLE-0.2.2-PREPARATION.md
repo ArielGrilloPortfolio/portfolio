@@ -33,3 +33,7 @@ The English product page uses the actual 1400x910 editor screenshot, CLEAN/GLUE 
 ## Upload confirmed and public ZIP verified — 2026-11-25
 
 The user confirmed the manual VPS upload and helper execution. Full HTTPS ZIP, exact installer hash, ZIP CRC and sidecar passed. Prepared website hashes and unchanged frontend baseline were verified before applying the new Temple page, portfolio card and Nginx routes. Deployment verification follows after the authorized main push.
+
+## Website published and verified — 2026-11-25
+
+Authorized publication commit: 16d334344177bc7eed95d181f07abbc34efbc8f6. The public Temple page, portfolio card, native screenshot and guides respond correctly. The canonical ZIP was downloaded in full and its SHA256 matched; sidecar, HTTP206 byte range and missing-file404 checks passed. Brasa page and navigation remain available. See TEMPLE-0.2.2-WEBSITE-PUBLICATION-VERIFICATION.json.

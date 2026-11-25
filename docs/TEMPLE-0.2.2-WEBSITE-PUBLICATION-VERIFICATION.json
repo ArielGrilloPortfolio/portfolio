@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-11-25T16:49:08.101269+00:00",
+  "page": "https://www.arielgrillo.es/temple/",
+  "commit": "16d334344177bc7eed95d181f07abbc34efbc8f6",
+  "checks": [
+    {
+      "path": "/temple/",
+      "status": 200,
+      "bytes": 6845
+    },
+    {
+      "path": "/temple/styles.css?v=0.2.2",
+      "status": 200,
+      "bytes": 7300
+    },
+    {
+      "path": "/temple/assets/temple-v0.2.2-native.png",
+      "status": 200,
+      "bytes": 1909961
+    },
+    {
+      "path": "/temple/guides/README-0.2.2.md",
+      "status": 200,
+      "bytes": 4119
+    },
+    {
+      "path": "/temple/guides/INSTALLATION-0.2.2.md",
+      "status": 200,
+      "bytes": 2013
+    },
+    {
+      "path": "/temple/guides/DSP-REPORT-0.2.2.md",
+      "status": 200,
+      "bytes": 7209
+    },
+    {
+      "path": "/temple",
+      "status": 200,
+      "bytes": 6845
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 22216
+    },
+    {
+      "path": "/downloads/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip",
+      "status": 200,
+      "bytes": 8073285
+    },
+    {
+      "path": "/downloads/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip.sha256",
+      "status": 200,
+      "bytes": 102
+    },
+    {
+      "path": "/downloads/temple/v0.2.2/Temple-0.2.2-win-x64-installer.zip",
+      "status": 206,
+      "bytes": 1024
+    },
+    {
+      "path": "/downloads/temple/v0.2.2/missing.zip",
+      "status": 404
+    },
+    {
+      "path": "/brasa/",
+      "status": 200,
+      "bytes": 6948
+    }
+  ],
+  "canonicalZipSHA256": "41705abb8c02ca9f1f2f397618c5ef4b52af0892beb8aedebfbb5af8eff74097",
+  "range206": "passed",
+  "missingZip404": "passed",
+  "portfolioTempleCard": "passed",
+  "brasaPreserved": "page200 and existing navigation retained",
+  "publicActivation": "passed"
+}

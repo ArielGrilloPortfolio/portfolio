@@ -8,6 +8,6 @@
   "zipCrc": "passed",
   "sidecar": "passed",
   "contentType": "application/zip",
-  "websiteActivation": "pending",
+  "websiteActivation": "published and publicly verified",
   "webGuideNormalization": "Before publication, corrected inherited mojibake and duplicate CR line endings in web-only guides. Installer and ZIP bytes unchanged."
 }
